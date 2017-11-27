@@ -61,28 +61,44 @@ public class Wind : MonoBehaviour {
 	
 		Vector3 CustomPosition = this.transform.parent.position;
 		CustomPosition.y = 40;
-		int i = 0;
+		int i = 0; int v = 1;
 
-		float rotationVariable = 0;
-	
+		float rotationVariable = 0;	
 		Quaternion CustomRotation = this.transform.parent.rotation;
 
+		float rotationValue = CustomRotation.y;
+		//CustomRotation = Quaternion.Euler (0, rotationValue + rotationVariable, 0);
+
 		while (i < 4) {
-			rotationVariable = 15 * i;
+			rotationVariable = 15;
 			var seed = (GameObject)Instantiate (
 				          seedPrefab,
 				CustomPosition,
 				CustomRotation);
 
-			CustomPosition.x = CustomPosition.x + 4;
-			//CustomRotation = Quaternion.Euler (0, rotationValue + rotationVariable, 0);
+			CustomPosition.x = CustomPosition.x + 5;
 			CustomRotation.y += rotationVariable;
 
 
 			print ("\n\n" + seed.gameObject.name + "\n\n");
 
 		// Add velocity to the bullet
-			seed.GetComponent<Rigidbody>().velocity =  (seed.transform.forward * windForce * fast);
+	
+			if (CustomPosition.z > 400) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.forward * windForce * fast * v);
+			}
+
+			else if (CustomPosition.z < 100) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.forward * windForce * fast * -v);
+			}
+
+			else if (CustomPosition.x < 100) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.right * windForce * fast * -v);
+			}
+
+			else if (CustomPosition.x > 400) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.right * windForce * fast * v);
+			}
 
 		// Destroy the bullet after 2 seconds
 		

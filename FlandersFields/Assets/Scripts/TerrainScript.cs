@@ -20,16 +20,16 @@ public class TerrainScript : MonoBehaviour {
 	{
 		if (col.gameObject.name == "seed(Clone)") {					//if the seed hits the terrain
 
-			//Vector3 pos = col.transform.position;
-			//pos.y += 3;								
+			Vector3 pos = col.transform.position;
+			pos.y += 1;								
 
-			//var flower = (GameObject)Instantiate (
-			//	FlowerPrefab,
-			//	pos,
-			//	col.transform.rotation);
+			var flower = (GameObject)Instantiate (
+				FlowerPrefab,
+				pos,
+				col.transform.rotation);
 
 			Destroy (col.gameObject, 0f);
-			//Destroy (flower, 20f);
+			Destroy (flower, 20f);
 
 		}
 
