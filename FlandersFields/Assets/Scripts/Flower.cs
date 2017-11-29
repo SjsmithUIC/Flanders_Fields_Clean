@@ -21,14 +21,20 @@ namespace AssemblyCSharp
 			flowersAround = FA;
 		}
 
+		public void IncreaseFlower()
+		{
+			flowersAround++;
+			ChangeDestroyTime ();
+		}
+
 		public GameObject getFlower()
 		{
 			return flower;
 		}
 
-		public void ChangeDestroyTime(float ChangeRatio)
+		public void ChangeDestroyTime()
 		{
-			this.DestroyTime *= ChangeRatio;
+			this.DestroyTime *= (1 + (flowersAround/10));
 		}
 
 		public float getSpawnTime()

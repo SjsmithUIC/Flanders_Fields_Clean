@@ -56,11 +56,13 @@ public class TerrainScript : MonoBehaviour {
 			foreach (Flower f in Flowers) {
 				Vector3 F_Pos = f.getPosition();
 		
-				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z))
+				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z)) {
+					f.IncreaseFlower ();
 					flowersAround++;
+				}
 			}
 
-			Flower flo = new Flower (Aflower, pos, currentTime , 20f, flowersAround);
+			Flower flo = new Flower (Aflower, pos, currentTime , 10f, flowersAround);
 
 			Flowers.Add (flo);
 
