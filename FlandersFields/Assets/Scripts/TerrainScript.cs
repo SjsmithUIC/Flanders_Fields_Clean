@@ -78,6 +78,17 @@ public class TerrainScript : MonoBehaviour {
 				col.transform.position,
 				col.transform.rotation);
 
+			float posX = col.transform.position.x; float posZ = col.transform.position.z;
+
+
+			foreach (Flower f in Flowers) {
+				Vector3 F_Pos = f.getPosition();
+
+				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z)) {
+					Destroy (f.getFlower(), 0f);
+				}
+			}
+
 			Destroy (col.gameObject, 0f);
 			Destroy (explosion, 2f);
 
