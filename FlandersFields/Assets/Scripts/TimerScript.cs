@@ -19,7 +19,7 @@ public class TimerScript : MonoBehaviour {
 		EndTime = startingtime + EventSystemScript.TotalTime;
 		Minutes = 3;
 		Seconds = 0;
-		t.fontSize = 20;
+		t.fontSize = 32;
 	}
 	
 	// Update is called once per frame
@@ -29,12 +29,12 @@ public class TimerScript : MonoBehaviour {
 		Seconds = (int)TimeRemaining % 60;
 
 		if (Minutes < 10 && Seconds > 9)
-			t.text = "0" + Minutes + ":" + Seconds;
+			t.text = "Time: " + "0" + Minutes + ":" + Seconds;
 		else if (Minutes < 10 && Seconds < 10)
-			t.text = "0" + Minutes + ":0" + Seconds;
+			t.text = "Time: " + "0" + Minutes + ":0" + Seconds;
 		else if (Minutes == 0 && Seconds < 10) {
 			t.color = Color.red;
-			t.text = "0" + Minutes + ":0" + Seconds;
+			t.text = "Time: " + "0" + Minutes + ":0" + Seconds;
 		}
 		
 	}

@@ -34,7 +34,7 @@ namespace AssemblyCSharp
 
 		public void ChangeDestroyTime()
 		{
-			this.DestroyTime *= (1 + (flowersAround/100));
+			this.DestroyTime *= (1 + (flowersAround/25));
 		}
 
 		public float getSpawnTime()
