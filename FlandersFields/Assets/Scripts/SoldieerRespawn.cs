@@ -13,6 +13,14 @@ public class SoldieerRespawn : MonoBehaviour
 	public Transform[] Spawpoints;
 	public Transform[] NavPoints;
 
+	public AudioClip TrenchWhistle;
+	private AudioSource TW;
+
+	void Awake()
+	{
+		TW = GetComponent<AudioSource> ();	
+	}
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -37,9 +45,12 @@ public class SoldieerRespawn : MonoBehaviour
 
 	void OverTheTop()
 	{
-		if (iterations < AutoKillIterations) {
-			if (allDead()) 
+		if (iterations < AutoKillIterations) 
+		{
+			if (allDead ()) 
 			{
+				TW.PlayOneShot (TrenchWhistle, 1f);
+
 				for (int i = 0; i < SoldiersOnField; i++) 
 				{
 					int SpawnLocation = Random.Range (0, Spawpoints.Length);
@@ -48,6 +59,11 @@ public class SoldieerRespawn : MonoBehaviour
 				}
 
 				iterations = 0;
+			} 
+
+			else 
+			{
+				iterations = iterations + 1;
 			}
 		} 
 
