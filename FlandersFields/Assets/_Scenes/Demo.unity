@@ -4444,7 +4444,7 @@ MonoBehaviour:
   - {fileID: 1321665325}
   - {fileID: 1983391943}
   - {fileID: 192891254}
-  NavePoints:
+  NavPoints:
   - {fileID: 405715495}
   - {fileID: 109624338}
   - {fileID: 733026211}
