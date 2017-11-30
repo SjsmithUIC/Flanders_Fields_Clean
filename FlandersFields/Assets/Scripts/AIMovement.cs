@@ -41,7 +41,10 @@ public class AIMovement : MonoBehaviour
 		return Random.Range (0, Length);
 	}
 
-
+	public void AddNavPoints(Transform[] T)
+	{
+		target = T;
+	}
 
 	//edited by anas
 
