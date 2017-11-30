@@ -27,7 +27,7 @@ public class TrapScript : MonoBehaviour {
 
 	void OnCollisionEnter (Collision col)
 	{
-		if (col.gameObject.name == checkSoldier(col.gameObject)) {					//if the seed hits the terrain
+		if (col.gameObject.name == checkSoldier(col.gameObject) || col.gameObject.name == "SoldierPrefab(Clone)") {					//if the seed hits the terrain
 
 			CanonScript canon = closerCanon (col.gameObject);
 			//Canons[0].CanonFire (col.gameObject);
