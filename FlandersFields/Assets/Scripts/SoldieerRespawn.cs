@@ -15,10 +15,13 @@ public class SoldieerRespawn : MonoBehaviour
 
 	public AudioClip TrenchWhistle;
 	private AudioSource TW;
+	public AudioClip fighting;
+	private AudioSource F;
 
 	void Awake()
 	{
 		TW = GetComponent<AudioSource> ();	
+		F = GetComponent<AudioSource> ();
 	}
 
 	// Use this for initialization
@@ -49,7 +52,8 @@ public class SoldieerRespawn : MonoBehaviour
 		{
 			if (allDead ()) 
 			{
-				TW.PlayOneShot (TrenchWhistle, 1f);
+				TW.PlayOneShot (TrenchWhistle, .6f);
+				F.PlayOneShot (fighting, .6f);
 
 				for (int i = 0; i < SoldiersOnField; i++) 
 				{
@@ -69,6 +73,7 @@ public class SoldieerRespawn : MonoBehaviour
 
 		else 
 		{
+			
 			for(int i = 0; i < soldiers.Length; i++)
 			{
 				if(soldiers[i] != null)
@@ -76,6 +81,9 @@ public class SoldieerRespawn : MonoBehaviour
 					Destroy (soldiers [i]);
 				}
 			}
+
+			TW.PlayOneShot (TrenchWhistle, .6f);
+			F.PlayOneShot (fighting, .6f);
 
 			for (int i = 0; i < SoldiersOnField; i++) 
 			{
