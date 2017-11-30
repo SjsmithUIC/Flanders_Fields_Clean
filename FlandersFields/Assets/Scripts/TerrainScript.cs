@@ -2,38 +2,45 @@
 using System.Collections.Generic;
 using UnityEngine;
 using AssemblyCSharp;
+using UnityEngine.UI;
 
 public class TerrainScript : MonoBehaviour {
 
 	private List<Flower> Flowers;
-//	private Wind referenceScript;			//just made this private
 	public GameObject FlowerPrefab;
 	public GameObject ExplosionPrefab;
 	private float DestroyTime;
+	private static int flowerCount = 0;
+	private Text FlowerCountText;
 
 	static public int TotalFlowers = 0;
 	public int score = 0;
 
 	void Start(){
 		Flowers = new List<Flower>();
-//		referenceScript = GameObject.Find ("Wind").GetComponent<Wind>();
+		FlowerCountText = GameObject.Find("FlowerCount").GetComponent<Text>();
 	}
 
 	void Update()
 	{
-		int total = Flowers.Count;
-		foreach (Flower f in Flowers) {
-
-//		for(int i = 0; i < total; i++)
+		int total = Flowers.Count;     //slows down with large amount of flowers
 		float timeNow = Time.realtimeSinceStartup;
-		float spawnT = f.getSpawnTime ();
-		float desT =f.getDestroyTime ();
+		Flower temp;
+		for(int i = 0; i < Flowers.Count; i++){
+			temp = Flowers[i];
+
+			float spawnT = temp.getSpawnTime ();
+			float desT = temp.getDestroyTime ();
 
 			if (spawnT + desT <= timeNow) {			
-				Destroy (f.getFlower (), 0f);
-//				Flowers.RemoveAt ();
+				Destroy (Flowers[i].getFlower (), 0f);
+				flowerCount--;
+				FlowerCountText.text = flowerCount.ToString();
+				Flowers.Remove(Flowers[i]);
+				i--;
 			}
 		}
+
 	}
 
 	void OnCollisionEnter (Collision col)
@@ -64,7 +71,10 @@ public class TerrainScript : MonoBehaviour {
 
 			Flower flo = new Flower (Aflower, pos, currentTime , 10f, flowersAround);
 
+			flowerCount++;
 			Flowers.Add (flo);
+			FlowerCountText.text = flowerCount.ToString();
+
 
 			Destroy (col.gameObject, 0f);
 			//Destroy (Aflower, 20f);
@@ -81,11 +91,23 @@ public class TerrainScript : MonoBehaviour {
 			float posX = col.transform.position.x; float posZ = col.transform.position.z;
 
 
-			foreach (Flower f in Flowers) {
-				Vector3 F_Pos = f.getPosition();
+//			foreach (Flower f in Flowers) {
+//				Vector3 F_Pos = f.getPosition();
+//
+//				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z)) {
+//					Destroy (f.getFlower(), 0f);
+//					flowerCount--;
+//				}
+//			}
+
+			for (int i = 0; i < Flowers.Count; i++) {
+				Vector3 F_Pos = Flowers[i].getPosition();
 
 				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z)) {
-					Destroy (f.getFlower(), 0f);
+					Destroy (Flowers[i].getFlower(), 0f);
+					Flowers.Remove (Flowers [i]);
+					flowerCount--;
+					i--;
 				}
 			}
 
