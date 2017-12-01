@@ -19,10 +19,10 @@ public class Wind : MonoBehaviour {
 
 	void Start () {
     
-		powerBar = GameObject.Find("Power Bar").GetComponent<Slider>();
-    	powerBar.minValue = 0f;
-    	powerBar.maxValue = 10f;
-    	powerBar.value = powerBarValue; 
+		//powerBar = GameObject.Find("Power Bar").GetComponent<Slider>();
+    	//powerBar.minValue = 0f;
+    	//powerBar.maxValue = 10f;
+    	//powerBar.value = powerBarValue; 
 		t = GetComponent<Transform> ();
 	//	cameraScript = GameObject.Find ("Camera2").GetComponent<Camera>();
 	}
@@ -41,19 +41,19 @@ public class Wind : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown(0)) {
 			downTimeRight = Time.time;
-      		powerBarValue += powerBarThreshold * Time.deltaTime;
-			powerBar.value += powerBarThreshold * Time.deltaTime;
+      		//powerBarValue += powerBarThreshold * Time.deltaTime;
+			//powerBar.value += powerBarThreshold * Time.deltaTime;
       
 		}
 
 		if(Input.GetKeyUp (KeyCode.Space)|| Input.GetMouseButtonUp(0))
 		{
-			powerBar.value = powerBarValue;
+			//powerBar.value = powerBarValue;
 			downTimeRight = Time.time - downTimeRight;
-			powerBar.value = downTimeRight;
-			powerBarValue = downTimeRight;
+			//powerBar.value = downTimeRight;
+			//powerBarValue = downTimeRight;
 			SpawnASeed (downTimeRight);
-      		powerBarValue = 0f;
+      		//powerBarValue = 0f;
 		}
 	}
 

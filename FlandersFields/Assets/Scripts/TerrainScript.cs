@@ -43,6 +43,11 @@ public class TerrainScript : MonoBehaviour {
 
 	}
 
+	public static int getFlowerCount()
+	{
+		return flowerCount;
+	}
+
 	void OnCollisionEnter (Collision col)
 	{
 		if (col.gameObject.name == "seed(Clone)") {					//if the seed hits the terrain

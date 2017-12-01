@@ -12,7 +12,7 @@ public class EventSystemScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		ResultText = GameObject.Find("ResultText").GetComponent<Text>();
+		//ResultText = GameObject.Find("ResultText").GetComponent<Text>();
 		StartingTime = Time.realtimeSinceStartup;
 //		TotalTime = 300;
 	}
@@ -21,8 +21,8 @@ public class EventSystemScript : MonoBehaviour {
 	void Update () {
 		if (TerrainScript.getFlowerCount () >= 50) {
 
-			if (ResultText != null)
-				ResultText.text = "You Win";
+			//if (ResultText != null)
+				//ResultText.text = "You Win";
 
 			SceneManager.LoadScene ("Result");
 		}
@@ -30,8 +30,8 @@ public class EventSystemScript : MonoBehaviour {
 
 		if ((Time.realtimeSinceStartup - StartingTime) > 300) {
 
-			if (ResultText != null)
-				ResultText.text = "You Lose";
+			//if (ResultText != null)
+				//ResultText.text = "You Lose";
 
 			SceneManager.LoadScene ("Result");
 		}

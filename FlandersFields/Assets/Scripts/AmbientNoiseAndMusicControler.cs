@@ -12,6 +12,7 @@ public class AmbientNoiseAndMusicControler : MonoBehaviour
 	public AudioClip music;
 	private AudioSource Mus;
 
+
 	void Awake()
 	{
 		AN1 = GetComponent<AudioSource> ();
@@ -42,6 +43,8 @@ public class AmbientNoiseAndMusicControler : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		
+
 	}
+
+
 }
