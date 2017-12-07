@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/_Scenes/Credits.unity
+  isLoaded: 1
+  isActive: 1
+>>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
