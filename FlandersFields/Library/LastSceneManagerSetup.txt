@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/Credits.unity
+=======
+- path: Assets/_Scenes/Story1.unity
+>>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
   isLoaded: 1
   isActive: 1
