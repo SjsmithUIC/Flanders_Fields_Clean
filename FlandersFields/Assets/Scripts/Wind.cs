@@ -10,7 +10,6 @@ public class Wind : MonoBehaviour {
   	private Slider powerBar;
   	private float powerBarThreshold = 100f;
   	private float powerBarValue = 0f;
-	private Text MovesLeftText;
 
 	// Use this for initialization
 	TerrainScript referenceScript;
@@ -19,8 +18,7 @@ public class Wind : MonoBehaviour {
 	public GameObject seedPrefab;
 
 	void Start () {
-		MovesLeftText = GameObject.Find("MovesLeft").GetComponent<Text>();
-
+    
 		//powerBar = GameObject.Find("Power Bar").GetComponent<Slider>();
     	//powerBar.minValue = 0f;
     	//powerBar.maxValue = 10f;
@@ -61,63 +59,55 @@ public class Wind : MonoBehaviour {
 
 	void SpawnASeed(float fast){
 
+		Vector3 CustomPosition = this.transform.parent.position;
+		CustomPosition.y = 40;
+		int i = 0; int v = 1;
 
-		if (EventSystemScript.MovesLeft > 0) {
+		float rotationVariable = 0;	
+		Quaternion CustomRotation = this.transform.parent.rotation;
 
-			EventSystemScript.MovesLeft--;
-			MovesLeftText.text = "Moves: " + EventSystemScript.MovesLeft;
+		float rotationValue = CustomRotation.y - 32;
+		CustomRotation = Quaternion.Euler (CustomRotation.x, (rotationValue + rotationVariable), CustomRotation.z);
 
-			Vector3 CustomPosition = t.position;
-			CustomPosition.y = 40;
-			int i = 0;
-			int v = 1;
+		while (i < 8) {
+			rotationVariable = 8 * i;
+			var seed = (GameObject)Instantiate (
+				          seedPrefab,
+				CustomPosition,
+				CustomRotation);
 
-			float rotationVariable = 0;	
-			Quaternion CustomRotation = this.transform.parent.rotation;
-
-			float rotationValue = CustomRotation.y - 32;
+			CustomPosition.x = CustomPosition.x + 5;
 			CustomRotation = Quaternion.Euler (CustomRotation.x, (rotationValue + rotationVariable), CustomRotation.z);
 
-
-			while (i < 8) {
-				rotationVariable = 8 * i;
-				var seed = (GameObject)Instantiate (
-					          seedPrefab,
-					          CustomPosition,
-					          t.rotation);
-
-				CustomRotation = Quaternion.Euler (CustomRotation.x, (rotationValue + rotationVariable), CustomRotation.z);
-
 //			seed.transform.Rotate(Vector3.up * rotationVariable, Space.World);
-				//CustomRotation.y += rotationVariable;
+			//CustomRotation.y += rotationVariable;
 
-				// Add velocity to the bullet
-				if (CustomPosition.z > 400) {
-					CustomPosition.x = CustomPosition.x - 5;
 
-				}
+			print ("\n\n" + seed.gameObject.name + "\n\n");
 
-				if (CustomPosition.z < 100) {
-					CustomPosition.x = CustomPosition.x + 5;
-				}
-
-				if (CustomPosition.x < 100) {
-					CustomPosition.z = CustomPosition.z - 5;
-
-				}
-
-				if (CustomPosition.x > 400) {
-					CustomPosition.z = CustomPosition.z + 5;
-
-				}
-				seed.GetComponent<Rigidbody> ().velocity = (seed.transform.forward * windForce * fast * v);
-
-				// Destroy the bullet after 2 seconds
-		
-				Destroy (seed, 10.0f);
-				i++;
-			}
+		// Add velocity to the bullet
 	
+			if (CustomPosition.z > 400) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.forward * windForce * fast * -v);
+			}
+
+			else if (CustomPosition.z < 100) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.forward * windForce * fast * v);
+			}
+
+			else if (CustomPosition.x < 100) {			
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.right * windForce * fast * v);
+			}
+
+			else if (CustomPosition.x > 400) {
+				seed.GetComponent<Rigidbody>().velocity =  (seed.transform.right * windForce * fast * -v);
+			}
+
+		// Destroy the bullet after 2 seconds
+		
+			Destroy(seed, 10.0f);
+			i++;
 		}
+	
 	}
 }

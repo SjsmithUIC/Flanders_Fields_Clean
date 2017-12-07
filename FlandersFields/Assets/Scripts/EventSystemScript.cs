@@ -9,7 +9,6 @@ public class EventSystemScript : MonoBehaviour {
 	public static float StartingTime;
 	public static int TotalTime = 120;
 	private Text ResultText;
-	public static int MovesLeft = 5;
 
 	// Use this for initialization
 	void Start () {
