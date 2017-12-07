@@ -9,6 +9,7 @@ public class EventSystemScript : MonoBehaviour {
 	public static float StartingTime;
 	public static int TotalTime = 120;
 	private Text ResultText;
+	public static int MovesLeft = 5;
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,7 @@ public class EventSystemScript : MonoBehaviour {
 		}
 
 
-		if ((Time.realtimeSinceStartup - StartingTime) > 300) {
+		if ((Time.realtimeSinceStartup - StartingTime) > TotalTime) {
 
 			//if (ResultText != null)
 				//ResultText.text = "You Lose";
