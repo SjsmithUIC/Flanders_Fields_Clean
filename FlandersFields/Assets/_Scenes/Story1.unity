@@ -1650,7 +1650,11 @@ RectTransform:
   m_GameObject: {fileID: 216847156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -558.00574, y: 163.03204, z: 0}
+=======
+  m_LocalPosition: {x: -516, y: 309, z: 0}
+>>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
 =======
   m_LocalPosition: {x: -516, y: 309, z: 0}
 >>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
@@ -3417,7 +3421,11 @@ RectTransform:
   m_GameObject: {fileID: 576270759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 498.6895, y: 82.73367, z: 0}
+=======
+  m_LocalPosition: {x: 236.39737, y: 86.13437, z: 0}
+>>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
 =======
   m_LocalPosition: {x: 236.39737, y: 86.13437, z: 0}
 >>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
@@ -4048,7 +4056,11 @@ RectTransform:
   m_GameObject: {fileID: 889881776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -10.984024, y: -156.892, z: 0}
+=======
+  m_LocalPosition: {x: -5.215744, y: -162.084, z: 0}
+>>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
 =======
   m_LocalPosition: {x: -5.215744, y: -162.084, z: 0}
 >>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
@@ -5025,7 +5037,11 @@ RectTransform:
   m_GameObject: {fileID: 1124873275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 673.5, y: 193, z: 0}
+=======
+  m_LocalPosition: {x: 341, y: 198.5, z: 0}
+>>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
 =======
   m_LocalPosition: {x: 341, y: 198.5, z: 0}
 >>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
@@ -5216,7 +5232,11 @@ RectTransform:
   m_GameObject: {fileID: 1156512033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 163.03204, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 309, z: 0}
+>>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
 =======
   m_LocalPosition: {x: 0, y: 309, z: 0}
 >>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
@@ -7941,7 +7961,11 @@ RectTransform:
   m_GameObject: {fileID: 2102319928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 673.5, y: 193, z: 0}
+=======
+  m_LocalPosition: {x: 341, y: 198.5, z: 0}
+>>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
 =======
   m_LocalPosition: {x: 341, y: 198.5, z: 0}
 >>>>>>> df0a7f01fffb783964c8f6978b5fb4d03b8e987a
