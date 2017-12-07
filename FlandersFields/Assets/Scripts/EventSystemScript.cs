@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class EventSystemScript : MonoBehaviour {
 
 	public static float StartingTime;
-	public static int TotalTime = 120;
+	public static int TotalTime = 180 + 4;
 	private Text ResultText;
 	public static int MovesLeft = 5;
 
@@ -20,15 +20,6 @@ public class EventSystemScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (TerrainScript.getFlowerCount () >= 100) {
-
-			//if (ResultText != null)
-				//ResultText.text = "You Win";
-
-			SceneManager.LoadScene ("Result");
-		}
-
-
 		if ((Time.realtimeSinceStartup - StartingTime) > TotalTime) {
 
 			//if (ResultText != null)
