@@ -12,9 +12,6 @@ AudioManager:
   m_VirtualVoiceCount: 512
   m_RealVoiceCount: 32
   m_SpatializerPlugin: 
-<<<<<<< HEAD
-=======
   m_AmbisonicDecoderPlugin: 
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_DisableAudio: 0
   m_VirtualizeEffects: 1

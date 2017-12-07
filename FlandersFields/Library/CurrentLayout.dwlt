@@ -13,37 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 34
-    y: 44
-    width: 1246
-    height: 756
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
-=======
     x: 0
     y: 43
-<<<<<<< HEAD
     width: 2560
     height: 1357
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 592}
-<<<<<<< HEAD
-=======
-    width: 1920
-    height: 997
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 545}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+  m_MinSize: {x: 950, y: 613}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -53,26 +30,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1246
-    height: 756
-  m_MinSize: {x: 950, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -90,27 +47,6 @@ MonoBehaviour:
   - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1920
-    height: 997
-  m_MinSize: {x: 950, y: 545}
-  m_MaxSize: {x: 10000, y: 10000}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,15 +55,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -135,45 +62,14 @@ MonoBehaviour:
   - {fileID: 4}
   - {fileID: 5}
   - {fileID: 6}
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    width: 1246
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     width: 2560
     height: 1357
-  m_MinSize: {x: 950, y: 592}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-<<<<<<< HEAD
-=======
-    width: 1920
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,51 +78,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    y: 736
-    width: 1246
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     y: 0
     width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 2 by 3
-<<<<<<< HEAD
-=======
-    y: 977
-    width: 1920
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,58 +103,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  - {fileID: 6}
-  - {fileID: 11}
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   - {fileID: 7}
   - {fileID: 8}
   - {fileID: 9}
   - {fileID: 10}
-<<<<<<< HEAD
-=======
-  - {fileID: 6}
-  - {fileID: 11}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    width: 1246
-    height: 706
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
-  vertical: 0
-  controlID: 39
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     width: 2560
     height: 1307
-  m_MinSize: {x: 911, y: 542}
-  m_MaxSize: {x: 22006, y: 12042}
+  m_MinSize: {x: 917, y: 563}
+  m_MaxSize: {x: 22012, y: 12063}
   vertical: 0
-  controlID: 268
-<<<<<<< HEAD
-=======
-    width: 1920
-    height: 947
-  m_MinSize: {x: 683, y: 495}
-  m_MaxSize: {x: 14004, y: 14045}
-  vertical: 0
-  controlID: 5548
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+  controlID: 377
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,27 +125,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 10}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 885
-    height: 706
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
-  vertical: 1
-  controlID: 40
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -332,28 +137,6 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 10}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1364
-    height: 947
-  m_MinSize: {x: 406, y: 495}
-  m_MaxSize: {x: 10002, y: 14045}
-  vertical: 1
-  controlID: 5549
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,57 +149,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-<<<<<<< HEAD
   - {fileID: 11}
   - {fileID: 2}
   - {fileID: 12}
-=======
-  - {fileID: 8}
-  - {fileID: 9}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
-  - {fileID: 8}
-  - {fileID: 9}
-=======
-  - {fileID: 11}
-  - {fileID: 2}
-  - {fileID: 12}
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    width: 885
-    height: 389
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
-  vertical: 0
-  controlID: 41
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     width: 1210
     height: 1307
-  m_MinSize: {x: 202, y: 542}
-  m_MaxSize: {x: 4002, y: 12042}
+  m_MinSize: {x: 202, y: 563}
+  m_MaxSize: {x: 4002, y: 12063}
   vertical: 1
-  controlID: 202
-<<<<<<< HEAD
-=======
-    width: 1364
-    height: 522
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
-  vertical: 0
-  controlID: 5550
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+  controlID: 378
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -431,44 +176,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 0
-    y: 0
-    width: 295
-    height: 389
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 1210
     y: 0
     width: 411
     height: 1307
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
-<<<<<<< HEAD
-=======
-    x: 0
-    y: 0
-    width: 455
-    height: 522
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -485,51 +201,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 295
-    y: 0
-    width: 590
-    height: 389
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 14}
-  - {fileID: 15}
-  m_Selected: 1
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 1621
     y: 0
     width: 367
     height: 1307
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 16}
   m_Selected: 0
-<<<<<<< HEAD
-=======
-    x: 455
-    y: 0
-    width: 909
-    height: 522
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 14}
-  - {fileID: 15}
-  m_Selected: 1
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -545,52 +226,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 0
-    y: 389
-    width: 885
-    height: 317
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 1988
     y: 0
     width: 572
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
-=======
-    x: 0
-    y: 522
-    width: 1364
-    height: 425
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -605,32 +251,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 885
-    y: 0
-    width: 361
-    height: 706
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 0
     y: 0
     width: 1210
     height: 447
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
-  - {fileID: 14}
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -641,77 +270,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 32
-  m_Pos:
-    serializedVersion: 2
-    x: 297
-    y: 19
-    width: 586
-    height: 368
-  m_MaximizeOnPlay: 1
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_TargetDisplay: 0
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    m_HBaseRangeMin: -293
-    m_HBaseRangeMax: 293
-    m_VBaseRangeMin: -175.5
-    m_VBaseRangeMax: 175.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoom: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 17
-      width: 586
-      height: 351
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 293, y: 175.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -293
-      y: -175.5
-      width: 586
-      height: 351
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 586, y: 368}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000100000100
---- !u!114 &13
-=======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -724,27 +282,12 @@ MonoBehaviour:
     height: 636
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
-=======
-    x: 1364
-    y: 0
-    width: 556
-    height: 947
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &12
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -752,7 +295,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -780,125 +322,6 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 92
-    width: 1208
-    height: 650
-  m_ViewPositions:
-    m_KeySerializationHelper:
-    - {fileID: 1107186535531242436, guid: e7e8f359d30ed6f4084869c2841c8816, type: 2}
-    m_ValueSerializationHelper:
-    - {x: 674.80005, y: 314}
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 0}
-  m_BreadCrumbs: []
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_SerializedLocked: 0
-  m_CurrentEditor: 0
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &15
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 32
-  m_Pos:
-    serializedVersion: 2
-    x: 457
-    y: 17
-    width: 905
-    height: 501
-  m_MaximizeOnPlay: 1
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_TargetDisplay: 0
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -454.5
-    m_VBaseRangeMax: 454.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoom: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 17
-      width: 1920
-      height: 909
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 960, y: 454.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -960
-      y: -454.5
-      width: 1920
-      height: 909
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1920, y: 926}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000100000100
---- !u!114 &13
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -914,44 +337,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 34
-    y: 93
-    width: 293
-    height: 368
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: fefaffff00000000
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 1212
     y: 92
     width: 407
     height: 1286
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94500000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: be85fbfff8a8fbff6063fdffa6e3fdff2001feff640bfeffeebbfeffd6bffeff00000000024f000072500000e6500000
-<<<<<<< HEAD
-=======
-    x: 0
-    y: 92
-    width: 453
-    height: 501
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e890100
-    m_LastClickedID: 100702
-    m_ExpandedIDs: ce29feffbc6fffff7271ffff9072ffffc273ffff2e9bffffbcfbffff00000000ac300000ec3100003641000076420000
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+    m_ExpandedIDs: 4e77feff9083feff6ea5feff98acfefff6d8fefffcddfeffe2e4fefff4f4feff5cf6feff40f8feff000000000448000010480000e04d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -967,110 +361,14 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  - 
+  - Result
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 32
-  m_Pos:
-    serializedVersion: 2
-    x: 331
-    y: 93
-    width: 586
-    height: 368
-  m_SceneLighting: 1
-  lastFramingTime: 9952.632437212593
-  m_2DMode: 0
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
-  m_RenderMode: 0
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 1
-    showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-  m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-    speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_Size:
-    m_Target: 10
-    speed: 2
-    m_Value: 10
-  m_Ortho:
-    m_Target: 0
-    speed: 2
-    m_Value: 0
-  m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
 --- !u!114 &15
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
-  - Credits
-  m_CurrenRootInstanceID: 0
-  m_Locked: 0
-  m_CurrentSortingName: TransformSorting
---- !u!114 &16
-<<<<<<< HEAD
-=======
-  - Story1
-  m_CurrenRootInstanceID: 0
-  m_Locked: 0
-  m_CurrentSortingName: TransformSorting
---- !u!114 &14
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1078,20 +376,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1101,110 +385,11 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: Inspector
     m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 32
-  m_Pos:
-    serializedVersion: 2
-    x: 457
-    y: 92
-    width: 905
-    height: 501
-  m_SceneLighting: 1
-  lastFramingTime: 9952.632437212593
-  m_2DMode: 0
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: -1079.4796, y: -277.8184, z: 949.61646}
-    speed: 2
-    m_Value: {x: -1079.4796, y: -277.8184, z: 949.61646}
-  m_RenderMode: 0
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 1
-    showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-  m_Rotation:
-    m_Target: {x: -0.14303286, y: 0.36907005, z: -0.057597797, w: -0.9165214}
-    speed: 2
-    m_Value: {x: -0.14303286, y: 0.36907005, z: -0.057597794, w: -0.9165213}
-  m_Size:
-    m_Target: 2123.9226
-    speed: 2
-    m_Value: 2123.9226
-  m_Ortho:
-    m_Target: 0
-    speed: 2
-    m_Value: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 466
-    y: 92
-    width: 926
-    height: 501
---- !u!114 &16
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 1990
     y: 92
     width: 570
@@ -1216,18 +401,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
-<<<<<<< HEAD
-=======
-    x: 457
-    y: 92
-    width: 905
-    height: 501
 --- !u!114 &16
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1249,62 +423,22 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 34
-    y: 482
-    width: 883
-    height: 296
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     x: 1623
     y: 92
     width: 363
     height: 1286
-<<<<<<< HEAD
-=======
-    x: 0
-    y: 614
-    width: 1362
-    height: 404
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
-<<<<<<< HEAD
     m_SoftLockControlStates: []
-=======
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    - Assets/Scripts
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Scripts
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/Anas/Documents/School/CS 426/Final Project/Flanders_Fields_Clean/FlandersFields
-  m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8280000
-    m_LastClickedID: 10440
-    m_ExpandedIDs: a428000000ca9a3bffffff7f
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -1315,28 +449,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4450000
-    m_LastClickedID: 17860
-    m_ExpandedIDs: 000000003e44000092440000104500003e450000044600000c4600001246000000ca9a3bffffff7f
-<<<<<<< HEAD
-=======
-    - Assets/SkySerie Freebie
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/SkySerie Freebie
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\HailToTheBlue\Desktop\Flanders_Fields_Clean\FlandersFields
-  m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26610100
-    m_LastClickedID: 90406
-    m_ExpandedIDs: 00000000ae2500005c270000602900000e2a0000742d00009a2d0000b22d0000ffffff7f
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+    m_SelectedIDs: 7a450000
+    m_LastClickedID: 17786
+    m_ExpandedIDs: 00000000f041000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1364,18 +479,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000003e44000092440000104500003e450000044600000c4600001246000000ca9a3bffffff7f
-=======
-    m_ExpandedIDs: 00000000ae2500005c270000602900000e2a0000742d00009a2d0000b22d0000ffffff7f
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
-    m_ExpandedIDs: 
-=======
-    m_ExpandedIDs: 000000003e44000092440000104500003e450000044600000c4600001246000000ca9a3bffffff7f
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+    m_ExpandedIDs: 00000000f041000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1402,19 +506,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HadKeyboardFocusLastEvent: 1
-=======
     m_HadKeyboardFocusLastEvent: 0
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
-    m_HadKeyboardFocusLastEvent: 0
-=======
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
-    m_ExpandedInstanceIDs: 00000000
+    m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1430,18 +523,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 9}
-=======
-      m_ClientGUIView: {fileID: 10}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
-      m_ClientGUIView: {fileID: 10}
-=======
-      m_ClientGUIView: {fileID: 9}
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1451,47 +533,8 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_DirectoriesAreaWidth: 195
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 614
-    width: 1362
-    height: 404
-  m_AnimEditor: {fileID: 0}
-  m_Locked: 0
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_DirectoriesAreaWidth: 115
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
---- !u!114 &18
-=======
-  m_DirectoriesAreaWidth: 195
 --- !u!114 &17
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1499,36 +542,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 921
-    y: 93
-    width: 359
-    height: 685
-  m_ScrollPosition: {x: 0, y: 0}
-  m_InspectorMode: 0
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_PreviewWindow: {fileID: 0}
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1597,28 +610,6 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 614
-    width: 1362
-    height: 404
-  m_AnimEditor: {fileID: 0}
-  m_Locked: 0
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1627,66 +618,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 1366
-    y: 92
-    width: 554
-    height: 926
-  m_ScrollPosition: {x: 0, y: 0}
-  m_InspectorMode: 0
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_PreviewWindow: {fileID: 0}
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 360, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 1396
-    y: 92
-    width: 524
-    height: 926
-=======
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1706,14 +637,14 @@ MonoBehaviour:
     width: 1208
     height: 426
   m_SceneLighting: 1
-  lastFramingTime: 437.64363465076514
+  lastFramingTime: 0
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 361.3197, y: 378.5522, z: -12.423906}
+    m_Target: {x: 750.6108, y: 443.57858, z: -5.54194}
     speed: 2
-    m_Value: {x: 361.3197, y: 378.5522, z: -12.423906}
+    m_Value: {x: 750.6108, y: 443.57858, z: -5.54194}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -1738,11 +669,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1405.9899
+    m_Target: 563.7605
     speed: 2
-    m_Value: 1405.9899
+    m_Value: 563.7605
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1754,27 +685,3 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 360, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 1396
-    y: 92
-    width: 524
-    height: 926
->>>>>>> parent of 75e288b... Merge branch 'master' of https://github.com/SjsmithUIC/Flanders_Fields_Clean
-=======
->>>>>>> 54bb9a5e9d6b0e218c250a6125d81c349d522ed4
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b

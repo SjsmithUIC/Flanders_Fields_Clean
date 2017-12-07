@@ -3,12 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags:
   - Fire
-=======
-  tags: []
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   layers:
   - Default
   - TransparentFX
@@ -20,11 +16,7 @@ TagManager:
   - 
   - 
   - 
-<<<<<<< HEAD
-  - minimap
-=======
   - 
->>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   - 
   - 
   - 
