@@ -11,10 +11,7 @@ public class intro1 : MonoBehaviour {
 	void Start () {
     //StartCoroutine(TIME());
     //Application.LoadLevel(level);
-
-
   }
-
   IEnumerator TIME()
   {
     print(Time.time);

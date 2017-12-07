@@ -68,13 +68,19 @@ public class TerrainScript : MonoBehaviour {
 			foreach (Flower f in Flowers) {
 				Vector3 F_Pos = f.getPosition();
 		
-				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z)) {
+				if ((posX + 20 < F_Pos.x && posZ + 20 < F_Pos.z) || (posX + 20 < F_Pos.x && posZ - 20 < F_Pos.z) || (posX - 20 < F_Pos.x && posZ + 20 < F_Pos.z) || (posX - 20 < F_Pos.x && posZ - 20 < F_Pos.z)) {
 					f.IncreaseFlower ();
 					flowersAround++;
 				}
 			}
 
-			Flower flo = new Flower (Aflower, pos, currentTime , 10f, flowersAround);
+			Flower flo;
+
+			if (posX < 100 || posX > 400 || posZ < 50 || posZ > 400) 
+				flo = new Flower (Aflower, pos, currentTime , 2f, flowersAround);
+
+			else
+				flo = new Flower (Aflower, pos, currentTime , 10f, flowersAround);
 
 			flowerCount++;
 			Flowers.Add (flo);
@@ -108,7 +114,7 @@ public class TerrainScript : MonoBehaviour {
 			for (int i = 0; i < Flowers.Count; i++) {
 				Vector3 F_Pos = Flowers[i].getPosition();
 
-				if ((posX + 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX + 50 < F_Pos.x && posZ - 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ + 50 < F_Pos.z) || (posX - 50 < F_Pos.x && posZ - 50 < F_Pos.z)) {
+				if ((posX + 40 < F_Pos.x && posZ + 40 < F_Pos.z) || (posX + 40 < F_Pos.x && posZ - 40 < F_Pos.z) || (posX - 40 < F_Pos.x && posZ + 40 < F_Pos.z) || (posX - 40 < F_Pos.x && posZ - 40 < F_Pos.z)) {
 					Destroy (Flowers[i].getFlower(), 0f);
 					Flowers.Remove (Flowers [i]);
 					flowerCount--;
