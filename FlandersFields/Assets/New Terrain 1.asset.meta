@@ -3,6 +3,10 @@ guid: 44c7d0cc4dc673a4a99612571fb246da
 timeCreated: 1509004557
 licenseType: Free
 NativeFormatImporter:
+<<<<<<< HEAD
+=======
+  externalObjects: {}
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   mainObjectFileID: 15600000
   userData: 
   assetBundleName: 

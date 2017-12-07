@@ -3,9 +3,16 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 11
   productGUID: 5f6d944fa003c1c4d98c04673d5692f6
   AndroidProfiler: 0
+=======
+  serializedVersion: 13
+  productGUID: af6f1dd04723944ef97657d8ef2cf8c1
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
@@ -38,8 +45,11 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
+<<<<<<< HEAD
   m_SplashScreenBackgroundLandscape: {fileID: 0}
   m_SplashScreenBackgroundPortrait: {fileID: 0}
+=======
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -49,7 +59,10 @@ PlayerSettings:
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_MTRendering: 1
+<<<<<<< HEAD
   m_MobileMTRendering: 0
+=======
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
@@ -64,12 +77,23 @@ PlayerSettings:
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
   disableDepthAndStencilBuffers: 0
+<<<<<<< HEAD
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
+=======
+  androidBlitType: 0
+  defaultIsFullScreen: 1
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   runInBackground: 0
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
+<<<<<<< HEAD
+=======
+  Force IOS Speakers When Recording: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   submitAnalytics: 1
   usePlayerLog: 1
   bakeCollisionMeshes: 0
@@ -84,7 +108,11 @@ PlayerSettings:
   xboxEnableKinect: 0
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
+<<<<<<< HEAD
   visibleInBackground: 0
+=======
+  visibleInBackground: 1
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   allowFullscreenSwitch: 1
   graphicsJobMode: 0
   macFullscreenMode: 2
@@ -94,6 +122,10 @@ PlayerSettings:
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
   xboxEnablePIXSampling: 0
+<<<<<<< HEAD
+=======
+  metalFramebufferOnly: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   n3dsDisableStereoscopicView: 0
   n3dsEnableSharedListOpt: 1
   n3dsEnableVSync: 0
@@ -101,6 +133,11 @@ PlayerSettings:
   xboxOneResolution: 0
   xboxOneMonoLoggingLevel: 0
   xboxOneLoggingLevel: 1
+<<<<<<< HEAD
+=======
+  xboxOneDisableEsram: 0
+  xboxOnePresentImmediateThreshold: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   videoMemoryForVertexBuffers: 0
   psp2PowerMode: 0
   psp2AcquireBGM: 1
@@ -132,10 +169,23 @@ PlayerSettings:
     daydream:
       depthFormat: 0
       useSustainedPerformanceMode: 0
+<<<<<<< HEAD
+=======
+      enableVideoLayer: 0
+      useProtectedVideoMemory: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
     hololens:
       depthFormat: 1
   protectGraphicsMemory: 0
   useHDRDisplay: 0
+<<<<<<< HEAD
+=======
+  m_ColorGamuts: 00000000
+  targetPixelDensity: 0
+  resolutionScalingMode: 0
+  androidSupportedAspectRatio: 1
+  androidMaxAspectRatio: 2.1
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 1
@@ -202,7 +252,11 @@ PlayerSettings:
   iOSURLSchemes: []
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
+<<<<<<< HEAD
   metalEditorSupport: 1
+=======
+  metalEditorSupport: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 0
   appleDeveloperTeamID: 
@@ -216,7 +270,13 @@ PlayerSettings:
   AndroidKeyaliasName: 
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
+<<<<<<< HEAD
   androidEnableBanner: 1
+=======
+  AndroidEnableTango: 0
+  androidEnableBanner: 1
+  androidUseLowAccuracyLocation: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -227,10 +287,21 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
+<<<<<<< HEAD
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
+=======
+  m_BuildTargetEnableVuforiaSettings: []
+  openGLRequireES31: 0
+  openGLRequireES31AEP: 0
+  m_TemplateCustomTags: {}
+  mobileMTRendering:
+    Android: 1
+    iPhone: 1
+    tvOS: 1
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   wiiUTitleID: 0005000011000000
   wiiUGroupID: 00010000
   wiiUCommonSaveSize: 4096
@@ -380,7 +451,11 @@ PlayerSettings:
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
   ps4VideoOutBaseModeInitialWidth: 1920
+<<<<<<< HEAD
   ps4VideoOutReprojectionRate: 120
+=======
+  ps4VideoOutReprojectionRate: 60
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   ps4PronunciationXMLPath: 
   ps4PronunciationSIGPath: 
   ps4BackgroundImagePath: 
@@ -403,8 +478,12 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
+<<<<<<< HEAD
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4UseDebugIl2cppLibs: 0
+=======
+  ps4Passcode: 5PN2qmWqBlQ9wQj99nsQzldVI5ZuGXbE
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -415,7 +494,11 @@ PlayerSettings:
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
   ps4SocialScreenEnabled: 0
+<<<<<<< HEAD
   ps4ScriptOptimizationLevel: 3
+=======
+  ps4ScriptOptimizationLevel: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -450,7 +533,11 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
+<<<<<<< HEAD
   psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
+=======
+  psp2PackagePassword: WRK5RhRXdCdG5nG5azdNMK66MuCV6GXi
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -479,7 +566,11 @@ PlayerSettings:
   psp2UseLibLocation: 0
   psp2InfoBarOnStartup: 0
   psp2InfoBarColor: 0
+<<<<<<< HEAD
   psp2UseDebugIl2cppLibs: 0
+=======
+  psp2ScriptOptimizationLevel: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   psmSplashimage: {fileID: 0}
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
@@ -496,6 +587,7 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
+<<<<<<< HEAD
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT
     4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
@@ -504,10 +596,17 @@ PlayerSettings:
     17: MOBILE_INPUT
     20: MOBILE_INPUT
     22: MOBILE_INPUT
+=======
+  scriptingDefineSymbols: {}
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
+<<<<<<< HEAD
+=======
+  scriptingRuntimeVersion: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
@@ -589,6 +688,7 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
+<<<<<<< HEAD
   cloudServicesEnabled:
     Collab: 1
     UNet: 1
@@ -599,3 +699,14 @@ PlayerSettings:
   organizationId: hasanm5630
   cloudEnabled: 0
   enableNewInputSystem: 0
+=======
+  cloudServicesEnabled: {}
+  facebookSdkVersion: 
+  apiCompatibilityLevel: 2
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
+  cloudEnabled: 0
+  enableNativePlatformBackendsForNewInputSystem: 0
+  disableOldInputManagerSupport: 0
+>>>>>>> cd3a27e42287a438457cb080610289c1738a5d4b
