@@ -20,7 +20,7 @@ public class EventSystemScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (TerrainScript.getFlowerCount () >= 50) {
+		if (TerrainScript.getFlowerCount () >= 100) {
 
 			//if (ResultText != null)
 				//ResultText.text = "You Win";
