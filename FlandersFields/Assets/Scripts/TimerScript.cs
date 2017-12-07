@@ -11,9 +11,12 @@ public class TimerScript : MonoBehaviour {
 	private float TimeRemaining;
 	private int Minutes;
 	private int Seconds;
+	private Text MovesLeftText;
+
 	// Use this for initialization
 	void Start () {
 		t = GameObject.Find("Timer").GetComponent<Text>();
+		MovesLeftText = GameObject.Find("MovesLeft").GetComponent<Text>();
 		startingtime = Time.realtimeSinceStartup;
 		TimeRemaining = EventSystemScript.TotalTime;
 		EndTime = startingtime + EventSystemScript.TotalTime;
@@ -27,6 +30,11 @@ public class TimerScript : MonoBehaviour {
 		TimeRemaining = EndTime - Time.realtimeSinceStartup;
 		Minutes = (int)TimeRemaining / 60;
 		Seconds = (int)TimeRemaining % 60;
+
+		if (TimeRemaining % 10 >= 0.5 && TimeRemaining % 10 <= 0.5) {
+			EventSystemScript.MovesLeft++;
+			MovesLeftText.text = "Moves: " + EventSystemScript.MovesLeft;
+		}
 
 		if (Minutes < 10 && Seconds > 9)
 			t.text = "Time: " + "0" + Minutes + ":" + Seconds;
